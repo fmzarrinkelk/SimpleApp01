@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         nextButton.setOnClickListener {
             // this is a stupid example for the sake of learning
-            var myButton: Button = (it as Button)
+            val myButton: Button = (it as Button)
             if (myButton.text == "I got clicked") {
                 myButton.text = "Next"
             } else {
